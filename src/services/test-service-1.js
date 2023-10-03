@@ -1,9 +1,14 @@
 export const x = () => {
-    return 'VVVVVVVVV'
+    return 'XXXXXXXXX'
+}
+
+export const y = () => {
+    return 'YYYYYYYYYY'
 }
 
 const all = {
-    x
+    x,
+    y
 }
 
 export default all

@@ -1,12 +1,14 @@
-import { x } from "@services/test-service-1"
+import services1 from "@services/test-service-1"
 
 function TestComp1() {
-    const text = x()
+    const textX = services1.x()
+    const textY = services1.y()
 
     return (
-        <div className='test'>
+        <div className='test-component-1'>
             <p>AAAA</p>
-            <p>{text}</p>
+            <p>{textX}</p>
+            <p>{textY}</p>
         </div>
     )
 }
